@@ -221,9 +221,17 @@ const misc = [
 ];
 
 module.exports = {
-  extends: ['stylelint-config-recommended-scss', 'stylelint-8-point-grid', 'stylelint-config-css-modules'],
+  extends: [
+    'stylelint-config-recommended-scss',
+    'stylelint-8-point-grid',
+    'stylelint-config-css-modules',
+  ],
 
-  plugins: ['stylelint-scss', 'stylelint-order', 'stylelint-declaration-strict-value'],
+  plugins: [
+    'stylelint-scss',
+    'stylelint-order',
+    'stylelint-declaration-strict-value',
+  ],
 
   // Most styling errors should be considered warning
   defaultSeverity: 'warning',
